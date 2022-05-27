@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/brands.min.css" integrity="sha512-rQgMaFKZKIoTKfYInSVMH1dSM68mmPYshaohG8pK17b+guRbSiMl9dDbd3Sd96voXZeGerRIFFr2ewIiusEUgg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        body{
+            width: 100%;
+            height:100vh;
+            background-color:bisque;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width:35%;
+            height:80%;
+            background-color:aqua;
+            border-radius:5%;
+        }
+        .header{
+            width: 100%;
+            height:5%;
+            display:flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .header1{
+            width:40%;
+            height:100%;
+
+        }
+        .header2{
+            width:40%;
+            height:100%;
+        }
+        .baraa{
+            width:100%;
+            height:10%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-color:gold;
+        }
+        h1{
+            font-size:40px;
+            font-weight: 400;
+        }
+        .main2{
+            width:100%;
+            height:75%;
+            background-color:aqua;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .list{
+            width:80%;
+            height:100%;
+            background-color:azure;
+            display:flex;
+            flex-direction: column;
+        }
+        .list1{
+            width:100%;
+            height:12.5%;
+            background-color:aliceblue;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .icon{
+            width:50%;
+            height:100%;
+
+        }
+        .list2{
+            width:100%;
+            height:12.5%;
+            background-color:aliceblue;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .list3{
+            width:100%;
+            height:12.5%;
+            background-color:aliceblue;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .list4{
+            width:100%;
+            height:12.5%;
+            background-color:aliceblue;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .list5{
+            width:100%;
+            height:12.5%;
+            background-color:aliceblue;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .list6{
+            width:100%;
+            height:12.5%;
+            background-color:aliceblue;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .list7{
+            width:100%;
+            height:12.5%;
+            background-color:aliceblue;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .list8{
+            width:100%;
+            height:12.5%;
+            background-color:aliceblue;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .footer{
+            width:100%;
+            height: 10%;
+            display:flex;
+            justify-content: center;
+
+        }
+        .item1{
+            width:40%;
+            height: 100%;
+            background-color:beige;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .item2{
+            width:40%;
+            height: 100%;
+            background-color:beige;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        input{
+            width: 80%;
+            height:40%;
+        }
+        button{
+            width:25%;
+            height:50%;
+        }
+        i{
+            font-size:40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header1">
+                <p1 id="p1">Count:</p1>
+                <p2 id="p2"></p2>
+            </div>
+            <div class="header2"></div>
+        </div>
+        <div class="baraa">
+            <h1>Grocery</h1>
+        </div>
+        <div class="main2">
+            <div class="list">
+                <div class="list1" id="list1">
+                    <p3 id="p3"></p3>
+                    <button onclick="clear1()">Clear</button>
+                </div>
+                <div class="list2" id="list2">
+                    <p4 id="p4"></p4>
+                    <button onclick="clear2()">Clear</button>
+                </div>
+                <div class="list3" id="list3">  
+                    <p5 id="p5"></p5>
+                    <button onclick="clear3()">Clear</button>
+                </div>
+                <div class="list4" id="list4">
+                    <p6 id="p6"></p6>
+                    <button onclick="clear4()">Clear</button>
+                </div>
+                <div class="list5" id="list5">
+                    <p7 id="p7"></p7>
+                    <button onclick="clear5()">Clear</button>
+                </div>
+                <div class="list6" id="list6">
+                    <p8 id="p8"></p8>
+                    <button onclick="clear6()">Clear</button>
+                </div>
+                <div class="list7" id="list7">
+                    <p9 id="p9"></p9>
+                    <button onclick="clear7()">Clear</button>
+                </div>
+                <div class="list8" id="list8">
+                    <p10 id="p10"></p10>
+                    <button onclick="clear8()">Clear</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="item1">
+                <input id="input">
+            </div>
+            <div class="item2">
+                <button onclick="add()">Add list</button>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script>
+        list1.style.visibility = "hidden"
+        list2.style.visibility = "hidden"
+        list3.style.visibility = "hidden"
+        list4.style.visibility = "hidden"
+        list5.style.visibility = "hidden"
+        list6.style.visibility = "hidden"
+        list7.style.visibility = "hidden"
+        list8.style.visibility = "hidden"
+        x=0
+        add = function(){
+            if(x === 0){
+            p3.innerHTML = input.value
+            list1.style.visibility = "visible"
+            x=1
+                if(p3.innerHTML == ""){
+
+                }
+            }
+            else if(x === 1){
+            p4.innerHTML = input.value
+            list2.style.visibility = "visible"
+            x=2
+            }
+            else if(x === 2){
+            p5.innerHTML = input.value
+            list3.style.visibility = "visible"
+            x=3
+            }
+            else if(x === 3){
+            p6.innerHTML = input.value
+            list4.style.visibility = "visible"
+            x=4
+            }
+            else if(x === 4){
+            p7.innerHTML = input.value
+            list5.style.visibility = "visible"
+            x=5
+            }
+            else if(x === 5){
+            p8.innerHTML = input.value
+            list6.style.visibility = "visible"
+            x=6
+            }
+            else if(x === 6){
+            p9.innerHTML = input.value
+            list7.style.visibility = "visible"
+            x=7
+            }
+            else if(x === 7){
+            p10.innerHTML = input.value
+            list8.style.visibility = "visible"
+            x=8
+            }
+            p2.innerHTML++
+        }
+        clear1 = function(){
+            list1.style.visibility = "hidden"
+            p3.innerHTML = ""
+            p2.innerHTML-- 
+            list1.style.display = "none";        
+        }
+        clear2 = function(){
+            list2.style.visibility = "hidden"
+            p4.innerHTML = ""
+            p2.innerHTML--
+            list2.style.display = "none";
+        }
+        clear3 = function(){
+            list3.style.visibility = "hidden"
+            p5.innerHTML = ""
+            p2.innerHTML--
+            list3.style.display = "none"; 
+        }
+        clear4 = function(){
+            list4.style.visibility = "hidden"
+            p6.innerHTML = ""
+            p2.innerHTML--
+            list4.style.display = "none"; 
+        }
+        clear5 = function(){
+            list5.style.visibility = "hidden"
+            p7.innerHTML = ""
+            p2.innerHTML--
+            list5.style.display = "none"; 
+        }
+        clear6 = function(){
+            list6.style.visibility = "hidden"
+            p8.innerHTML = ""
+            p2.innerHTML--
+            list6.style.display = "none"; 
+        }
+        clear7 = function(){
+            list7.style.visibility = "hidden"
+            p9.innerHTML = ""
+            p2.innerHTML--
+            list7.style.display = "none"; 
+        }
+        clear8 = function(){
+            list8.style.visibility = "hidden"
+            p10.innerHTML = ""
+            p2.innerHTML--
+            list8.style.display = "none"; 
+        }
+    </script>
+</body>
+</html>
