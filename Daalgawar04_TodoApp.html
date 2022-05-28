@@ -242,95 +242,110 @@
         list8.style.visibility = "hidden"
         x=0
         add = function(){
+            if(list1.style.display == "none"){
+                list1.style.display = "";
+                list2.style.display = "";
+                list3.style.display = "";
+                list4.style.display = "";
+                list5.style.display = "";
+                list6.style.display = "";
+                list7.style.display = "";
+                list8.style.display = "";
+                list1.style.visibility = "hidden"
+                list2.style.visibility = "hidden"
+                list3.style.visibility = "hidden"
+                list4.style.visibility = "hidden"
+                list5.style.visibility = "hidden"
+                list6.style.visibility = "hidden"
+                list7.style.visibility = "hidden"
+                list8.style.visibility = "hidden"
+                x = 0
+            }
             if(x === 0){
             p3.innerHTML = input.value
             list1.style.visibility = "visible"
+            list1.style.display = "";
             x=1
-                if(p3.innerHTML == ""){
-
-                }
             }
             else if(x === 1){
             p4.innerHTML = input.value
             list2.style.visibility = "visible"
+            list2.style.display = "";
             x=2
             }
             else if(x === 2){
             p5.innerHTML = input.value
             list3.style.visibility = "visible"
+            list3.style.display = "";
             x=3
             }
             else if(x === 3){
             p6.innerHTML = input.value
             list4.style.visibility = "visible"
+            list4.style.display = "";
             x=4
             }
             else if(x === 4){
             p7.innerHTML = input.value
             list5.style.visibility = "visible"
+            list5.style.display = "";
             x=5
             }
             else if(x === 5){
             p8.innerHTML = input.value
             list6.style.visibility = "visible"
+            list6.style.display = "";
             x=6
             }
             else if(x === 6){
             p9.innerHTML = input.value
             list7.style.visibility = "visible"
+            list7.style.display = "";
             x=7
             }
             else if(x === 7){
             p10.innerHTML = input.value
             list8.style.visibility = "visible"
-            x=8
+            list8.style.display = "";
             }
             p2.innerHTML++
         }
         clear1 = function(){
-            list1.style.visibility = "hidden"
             p3.innerHTML = ""
             p2.innerHTML-- 
             list1.style.display = "none";        
         }
         clear2 = function(){
-            list2.style.visibility = "hidden"
             p4.innerHTML = ""
             p2.innerHTML--
             list2.style.display = "none";
         }
         clear3 = function(){
-            list3.style.visibility = "hidden"
             p5.innerHTML = ""
             p2.innerHTML--
             list3.style.display = "none"; 
         }
         clear4 = function(){
-            list4.style.visibility = "hidden"
             p6.innerHTML = ""
             p2.innerHTML--
             list4.style.display = "none"; 
         }
         clear5 = function(){
-            list5.style.visibility = "hidden"
             p7.innerHTML = ""
             p2.innerHTML--
             list5.style.display = "none"; 
         }
         clear6 = function(){
-            list6.style.visibility = "hidden"
             p8.innerHTML = ""
             p2.innerHTML--
             list6.style.display = "none"; 
         }
         clear7 = function(){
-            list7.style.visibility = "hidden"
             p9.innerHTML = ""
             p2.innerHTML--
             list7.style.display = "none"; 
         }
         clear8 = function(){
-            list8.style.visibility = "hidden"
             p10.innerHTML = ""
             p2.innerHTML--
             list8.style.display = "none"; 
